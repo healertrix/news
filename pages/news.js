@@ -19,26 +19,28 @@ export const News = ({ news }) => {
     <>
       <html data-theme="cupcake">
         <Hero
-          src={"https://static01.nyt.com/images/2021/01/30/business/29musk-print/29musk-1-mediumSquareAt3X.jpg"}
+          src={
+            "https://static01.nyt.com/images/2021/01/30/business/29musk-print/29musk-1-mediumSquareAt3X.jpg"
+          }
           title={news.articles[0].title}
           content={news.articles[0].content}
         />
-        <div className="text-center font-extrabold text-5xl m-6	">
+        <div class="text-center font-extrabold text-5xl m-6	">
           <h1>NewsPaper</h1>
         </div>
 
-        <div className="divider"></div>
-        <div className=" grid grid-cols-4  justify-items-center">
+        <div class="divider"></div>
+        <div class=" grid grid-cols-4  justify-items-center">
           <Badge text={"local"} />
           <Badge text={"sports"} />
           <Badge text={"weather"} />
           <Badge text={"tech"} />
         </div>
-        <div className="flex">
+        <div class="flex">
           <SearchBar />
         </div>
 
-        <div className="grid grid-cols-3 gap-5  justify-items-center m-10">
+        <div class="grid grid-cols-3 gap-5  justify-items-center m-10">
           {value}
         </div>
         <div>
