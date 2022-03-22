@@ -18,7 +18,7 @@ export const News = ({ news }) => {
         <div className="text-center font-extrabold text-5xl m-6	">
           <h1>NewsPaper</h1>
         </div>
-        <div class="divider"></div>
+        <div className="divider"></div>
         <div className=" grid grid-cols-4  justify-items-center">
           <Badge text={"local"} />
           <Badge text={"sports"} />

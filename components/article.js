@@ -8,11 +8,11 @@ export const Article = ({ image, title, alink }) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
-        
+
           <div className="card-actions justify-end">
             <Link href={alink}>
               <a target="_blank">
-                <button class="btn ">Open Article</button>
+                <button className="btn ">Open Article</button>
               </a>
             </Link>
           </div>
