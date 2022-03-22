@@ -2,7 +2,7 @@ import Link from "next/link";
 export const Article = ({ image, title, alink }) => {
   return (
     <>
-      <div className="card w-full bg-base-100 shadow-xl">
+      <div className="card w-full bg-base-100 shadow-xl card-normal">
         <figure>
           <img src={image} alt="Shoes" />
         </figure>
